@@ -41,10 +41,6 @@ tr{
 	text-align: center;
 }
 
-tr:hover{
-
-}
-
 #data:hover{
 		cursor: pointer;
 	background-color: #D5D4C8;

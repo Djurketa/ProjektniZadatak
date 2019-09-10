@@ -27,7 +27,7 @@
 		        else if ($row != 0 && $col == 0)
 		            echo "<td>$row</td>";
 		        else {     
-		            echo "<td id='data'>$col x $row </td> \n";
+		            echo "<td id='data'>$row x $col </td> \n";
 		        }
 		    }
 		    echo "</tr>";
