@@ -14,18 +14,26 @@
 		<h1 class="message"></h1>
 	</div>
 	<!--  -->
-		<table border="1"  onclick="getParams(event)">
+		<table border ="1" style='border-collapse: collapse' onclick="getParams(event)">
 		<?php	
-			// PHP code to draw table 
-			for ($row=1; $row <= 10; $row++) { 
-			echo "<tr>";
-				for ($col=1; $col <= 10; $col++) { 
-				   echo "<td>$row x $col</td> \n";	
-				}
-			echo "</tr>"; 	
-			}	
+				
+		for ($row = 0; $row <= 10; $row++) { 
+		    echo "<tr> \n";
+		    for ($col = 0; $col <= 10; $col++) { 
+		        if($row == 0 && $col == 0)
+		            echo '<td> x </td>';
+		        else if ($row == 0 && $col != 0)
+		            echo "<td>$col</td>";
+		        else if ($row != 0 && $col == 0)
+		            echo "<td>$row</td>";
+		        else {     
+		            echo "<td id='data'>$col x $row </td> \n";
+		        }
+		    }
+		    echo "</tr>";
+		}
 		?>		
-		</table>
+	</table>
 	</div>
 	<script type="text/javascript" src="calculator.js"></script>
 </body>

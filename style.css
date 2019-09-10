@@ -42,10 +42,11 @@ tr{
 }
 
 tr:hover{
-	cursor: pointer;
+
 }
 
-td:hover{
+#data:hover{
+		cursor: pointer;
 	background-color: #D5D4C8;
 }
 
