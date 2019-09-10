@@ -14,9 +14,9 @@
 		<h1 class="message"></h1>
 	</div>
 	<!--  -->
-		<table border ="1" style='border-collapse: collapse' onclick="getParams(event)">
+		<table border ="1" onclick="getParams(event)">
 		<?php	
-				
+		// Php code to draw table	
 		for ($row = 0; $row <= 10; $row++) { 
 		    echo "<tr> \n";
 		    for ($col = 0; $col <= 10; $col++) { 
