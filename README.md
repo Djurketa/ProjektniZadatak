@@ -1,2 +1,2 @@
 # ProjektniZadatak
-![image](screen.png)
+![image](screenshoot.png)
